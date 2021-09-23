@@ -62,9 +62,8 @@ Note:
 		       
 <img width="818" alt="git1" src="https://user-images.githubusercontent.com/78407424/134554267-a0822d15-b73b-48df-a2af-bcd57df37ee4.png">
 
+<img width="818" alt="git2" src="https://user-images.githubusercontent.com/78407424/134554581-6e76718a-fe94-4eb4-bc65-63ce91521356.png">
 
-
-![Branch Model](https://raw.githubusercontent.com/ankithg03/Inventrix/master/assets/GitFlow-git-workflow-2.png)	
 
 8. **git diff**: This command is to check the difference between the current code and previous commit.
 		       
