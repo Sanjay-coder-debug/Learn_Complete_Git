@@ -94,7 +94,8 @@ Git Remote Commands
 ----------------------
                     - List the all remote branch 
 		                                - git branch -r
-						
+		    - Change the Branch  				
+						-  git checkout -t origin/development
 
 
 
