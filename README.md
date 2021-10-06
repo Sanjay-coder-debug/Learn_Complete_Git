@@ -88,7 +88,7 @@ Note: Some other important commands such as git reset, git stash, git rebase are
 3. [Reset](https://git-scm.com/docs/git-reset)
 
 
-# ========================================================
+# ==================================================
 
 Git Remote Commands
 ----------------------
