@@ -93,9 +93,10 @@ Note: Some other important commands such as git reset, git stash, git rebase are
 Git Remote Commands
 ----------------------
                     - List the all remote branch 
+		                                - git remote -v  
 		                                - git branch -r
 		     - Change the Branch  				
-						-  git checkout -t origin/development
+						- git checkout -t origin/development
 
 
 
