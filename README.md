@@ -86,4 +86,19 @@ Note: Some other important commands such as git reset, git stash, git rebase are
 1. [Rebase](https://git-scm.com/docs/git-rebase/en)
 2. [Stash](https://git-scm.com/docs/git-stash) 
 3. [Reset](https://git-scm.com/docs/git-reset)
+
+
+# ========================================================
+
+Git Remote Commands
+----------------------
+                    - List the all remote branch 
+		                                - git branch -r
+						
+
+
+
+
+
+
 	  
