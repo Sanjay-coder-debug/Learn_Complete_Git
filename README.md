@@ -99,7 +99,7 @@ List the all remote branch
 		      
 		           - git fetch origin 
 			   
- = This fetches all the remote branches from the repository. origin is the remote name you're targetting. So if you had an upstream remote name, you can call
+ This fetches all the remote branches from the repository. origin is the remote name you're targetting. So if you had an upstream remote name, you can call
 				    
 		           - git fetch upstream
 		          
