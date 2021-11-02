@@ -107,13 +107,14 @@ List the all remote branch
 			   
 Change the Branch  		
 
-						- git checkout -f origin/development
+						  - git checkout -f origin/development
 
 
 
-Reset The Git  
-                                               - sudo git reset --hard origin/development
-
+Reset The Git     
+ 
+                                                  - sudo git reset --hard origin/development
+                      
 
 
 	  
