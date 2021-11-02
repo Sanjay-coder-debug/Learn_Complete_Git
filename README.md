@@ -111,6 +111,8 @@ Change the Branch
 
 
 
+Reset The Git  
+                                               - sudo git reset --hard origin/development
 
 
 
