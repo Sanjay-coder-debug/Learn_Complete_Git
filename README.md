@@ -114,6 +114,11 @@ Change the Branch
 Reset The Git     
  
                                                   - sudo git reset --hard origin/development
+						  - git rebase development
+						  - git stash
+						  - 
+
+
                       
 
 
