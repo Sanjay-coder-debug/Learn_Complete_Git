@@ -118,8 +118,12 @@ Reset The Git
 						  - git stash
 						  - 
 
-
-                      
-
+Git Error and Quick Fix  Commands
+---------------------------------               
+Error: Your local changes to the following files would be overwritten by checkout:
+         
+	 - git checkout -f development(You Branch Name)
+	 - 
+	  
 
 	  
