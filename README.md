@@ -124,6 +124,22 @@ Error: Your local changes to the following files would be overwritten by checkou
          
 	 - git checkout -f development(You Branch Name)
 	 - 
-	  
+
+Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+----------------------------------------------------------------------------------------------------------------
+                           
+		
+		   Create Personal Access Token on GitHub
+From your GitHub account, go to Settings => Developer Settings => Personal Access Token => Generate New Token (Give your password) => Fillup the form => click Generate token => Copy the generated Token, it will be something like ghp_sFhFsSHhTzMDreGRLjmks4Tzuzgthdvfsrta
+			   
+			   
+			   
+			   
+			   
+		
+
+
+
+
 
 	  
