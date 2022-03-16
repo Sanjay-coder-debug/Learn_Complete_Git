@@ -136,6 +136,10 @@ From your GitHub account, go to Settings => Developer Settings => Personal Acces
 			   
 			   
 			   
+How To Resolve Git Conflicts & Why Git Conflicts Occurs
+=======================================================
+			
+			
 			   
 		
 
