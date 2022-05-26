@@ -90,6 +90,18 @@ Note: Some other important commands such as git reset, git stash, git rebase are
 
 # ==================================================
 
+Git Some Other Commands
+-----------------------
+
+              - git pull 
+	      - git fetch
+	      - git merger
+
+
+
+
+
+
 Git Remote Commands
 ----------------------
 List the all remote branch 
@@ -119,19 +131,6 @@ Reset The Git
 						  - 
 						  
 						  
-
-
-
-Git Some Other Commands
------------------------
-
-              - git pull 
-	      - git fetch
-	      - git merger
-			
-
-
-
 
 						  
 
