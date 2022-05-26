@@ -92,10 +92,9 @@ Note: Some other important commands such as git reset, git stash, git rebase are
 
 Git Some Other Commands
 -----------------------
-
                - git pull 
 	       - git fetch
-	       - git merger
+	       - git merge
 
 
 
@@ -106,10 +105,9 @@ Git Remote Commands
 ----------------------
 List the all remote branch 
 
-		                                - git remote -v  
-		                                - git branch -r
-		      
-		           - git fetch origin 
+		            - git remote -v  
+		            - git branch -r
+		            - git fetch origin 
 			   
  This fetches all the remote branches from the repository. origin is the remote name you're targetting. So if you had an upstream remote name, you can call
 				    
