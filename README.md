@@ -145,7 +145,14 @@ Support for password authentication was removed on August 13, 2021. Please use a
 		
 		   Create Personal Access Token on GitHub
 		   Link -  https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to
-From your GitHub account, go to Settings => Developer Settings => Personal Access Token => Generate New Token (Give your password) => Fillup the form => click Generate token => Copy the generated Token, it will be something like ghp_sFhFsSHhTzMDreGRLjmks4Tzuzgthdvfsrta
+		   
+                    From your GitHub account, go to Settings => 
+		                      Developer Settings => 
+				            Personal Access Token => 
+					    Generate New Token (Give your password) =>
+					    Fillup the form => 
+					    click Generate token => 
+					    Copy the generated Token, it will be something like ghp_sFhFsSHhTzMDreGRLjmks4Tzuzgthdvfsrta
 			   
 			   
 			   
