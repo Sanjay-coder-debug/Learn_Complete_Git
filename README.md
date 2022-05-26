@@ -117,6 +117,23 @@ Reset The Git
 						  - git rebase development
 						  - git stash
 						  - 
+						  
+						  
+
+
+
+Git Some Other Commands
+-----------------------
+
+              - git pull 
+	      - git fetch
+	      - git merger
+			
+
+
+
+
+						  
 
 Git Error and Quick Fix  Commands
 ---------------------------------               
