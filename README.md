@@ -97,7 +97,8 @@ Git Some Other Commands
 	       
 	       
 	      - git fetch
-	              - git fetch is the command that tells your local git to retrieve the latest meta-data info from the original                                                  (yet doesn’t do any file transferring. It’s more like just checking to see if there are any changes available).
+	              - git fetch is the command that tells your local git to retrieve the latest meta-data info from the original
+		         (yet doesn’t do any file transferring. It’s more like just checking to see if there are any changes available).
 	      - git merge
 
 
@@ -113,7 +114,8 @@ List the all remote branch
 		            - git branch -r
 		            - git fetch origin 
 			   
- This fetches all the remote branches from the repository. origin is the remote name you're targetting. So if you had an upstream remote name, you can call
+                               This fetches all the remote branches from the repository.
+			       origin is the remote name you're targetting. So if you had an upstream remote name, you can call
 				    
 		           - git fetch upstream
 		          
