@@ -93,8 +93,12 @@ Note: Some other important commands such as git reset, git stash, git rebase are
 Git Some Other Commands
 -----------------------
                - git pull 
-	       - git fetch
-	       - git merge
+                           - git pull on the other hand does that AND brings (copy) those changes from the remote repository.
+	       
+	       
+	      - git fetch
+	              - git fetch is the command that tells your local git to retrieve the latest meta-data info from the original                                                  (yet doesn’t do any file transferring. It’s more like just checking to see if there are any changes available).
+	      - git merge
 
 
 
