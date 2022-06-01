@@ -159,9 +159,82 @@ Support for password authentication was removed on August 13, 2021. Please use a
 					    Fillup the form => 
 					    click Generate token => 
 					    Copy the generated Token, it will be something like ghp_sFhFsSHhTzMDreGRLjmks4Tzuzgthdvfsrta
-			   
-			   
-			   
+
+
+
+
+
+
+Common Flow
+===========
+
+                  First taking the git Clone
+                       - git clone git@git.corp.adobe.com:acs-gdc-adobe-commerce-services/lgkorea-google-tag.git GoogleTag
+		  
+		  Going to that directory
+                       - cd GoogleTag
+		       - ls (code which is coming from master branch)
+		       
+		  Creating new Branch 
+		       - git checkout -b GoogleTag           - here i am creating new branch bcz i need to put my code 
+		       
+		  
+		  After checkout also i will get this master branch file inside my Custom branch
+		       - sudo rm -rf Block/ etc/ registration.php  Setup/ view/                  -- so i am deleting from my custom created branch
+		       
+		  
+		  After Delete Check the Files
+		     
+		       - git status                 --- deleted file details we will get here
+		  
+		  Adding this deleted details file
+		   
+		       -  git add .
+		       
+		  After adding the deleted file details Commiting the files
+		  
+		       - git commit -m "old deleted files "
+		       
+		  Pushing the Deleted Codes 
+		  
+		      - git push origin GoogleTag
+		      
+		 
+		 -------------------Now Go to the Git Repo and Check the Details and Changes-----------------------------
+		 
+		 
+		 This is the File Which i need to Keep to Our New Custom Branch Location
+		 
+		       - sudo cp -r /home/codilar/Documents/Adobe/GoogleTag
+		       
+		 Go to That File Location where we need paste 
+		 
+		      - sudo cp -r /home/codilar/Documents/Adobe/GoogleTag/*  ./
+		      
+		 
+		 ------------------------------Now check the files - for all the changs files -----------------------------------
+		 
+		 
+		      - git status
+		      
+		      - git add .
+		      
+		      - git commit -m "module refactoring"
+		      
+		      
+		      - git push origin GoogleTag 
+
+		    
+		      
+
+                 
+      
+		       
+		       
+		       
+		       
+		     
+
 			   
 How To Resolve Git Conflicts & Why Git Conflicts Occurs
 =======================================================
