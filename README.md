@@ -231,7 +231,27 @@ Common Flow
       
 		       
 		       
-		       
+When we are using Hyper-V On Windows -10
+------------------------------------------
+
+     - At the time of Connect to Putty 
+                                     |---when we took the pull from git and when we try to get this remote file into local 
+				                                    |
+								    |---At that time we will get the some modified code error
+								                      |
+										    (Root User or Local User) -- So we get everytime modified file error
+								    
+You should be able to change the permissions (by terminal on the machine or over SSH) by running this so that users other than root can access it:
+                      - sudo chmod -R 757 /var/www
+      (or)
+           this so that it is owned by your user (which should be defined by $USER):
+                     - sudo chown -R $USER:$USER /var/www
+		     
+You need to do this as only the owner+group can read, write and execute in /var/www, but other users can only read and execute - including the user you are using to try and the folders.
+
+For more info, look at man chmod and man chown	
+
+-----------------------------------------------------------------------------
 		       
 		     
 
