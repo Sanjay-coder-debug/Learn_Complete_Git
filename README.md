@@ -263,7 +263,12 @@ How To Resolve Git Conflicts & Why Git Conflicts Occurs
 =======================================================
 			
 			
-			   
+Issue - 1
+----------
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+ Resolve - 
 		
 
 
