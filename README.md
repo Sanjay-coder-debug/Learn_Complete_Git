@@ -268,7 +268,8 @@ Issue - 1
 ssh: Could not resolve hostname github.com: Temporary failure in name resolution
 fatal: Could not read from remote repository.
 
- Resolve - 
+ Resolve -  Restart the Ssh
+         -  Dis-connect the VPN Connection and Re-Connect with the WinSCP -->(Basically need to Disconnect the VPN and Give Permission (chmod -R 777 /var/www/html/)
 		
 
 
