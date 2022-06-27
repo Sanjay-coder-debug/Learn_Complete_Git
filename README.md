@@ -248,7 +248,8 @@ You should be able to change the permissions (by terminal on the machine or over
            this so that it is owned by your user (which should be defined by $USER):
 	   
                      - sudo chown -R $USER:$USER /var/www
-		     
+		  
+		    - sudo git config core.fileMode false
 		     
 You need to do this as only the owner+group can read, write and execute in /var/www, but other users can only read and execute - including the user you are using to try and the folders.
 
