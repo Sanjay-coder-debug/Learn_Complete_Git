@@ -134,7 +134,21 @@ Reset The Git
 						  - git stash
 						  - 
 						  
-						  
+
+Some Development Git Fix
+========================
+            1- When  Trying to checkout for one branch to another branch some error will be there 
+		              |
+			      |--------- git checkout file (all the file that modified on current branch)
+			      |--------- rm -rf file (if that file is not required for current branch)
+			      
+            2- When some code not require on a branch and need to delete from branch(also code which present in branch and that branch already merged)
+	                      |
+			      |
+			      |-----rm -rf folder(code/file)
+			      |-----git add folder(code/file)(delete file ) 
+			      |-----git comiit -m "file delete"
+	     
 
 						  
 
@@ -273,7 +287,11 @@ fatal: Could not read from remote repository.
          -  Dis-connect the VPN Connection and Re-Connect with the WinSCP -->(Basically need to Disconnect the VPN and Give Permission (chmod -R 777 /var/www/html/)
 		
 
-
+Way to Solve
+------------
+          -> If Getting Conflict on branch 
+	            |
+		    |-> take the pull from that conflict branch and remove the conflict code
 
 
 
