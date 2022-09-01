@@ -299,6 +299,12 @@ Issue -2
            --> sudo git config --global --add safe.directory '*'
            --> sudo git config core.fileMode false
 
-
+Issue -3
+--------
+        - ssh -T GITHUB-Sanjay-cod34082@github.com                ---> Check the git connection is success or not through ssh
+	- ssh-keygen -t rsa -b 4096 -C "cod34082@adobe.com"       ---> If ssh key is not generated use this to generated pub and private key
+	
+Issue -4
+--------
 
 	  
