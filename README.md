@@ -294,5 +294,11 @@ Way to Solve
 		    |-> take the pull from that conflict branch and remove the conflict code
 
 
+Issue -2
+--------
+           --> sudo git config --global --add safe.directory '*'
+           --> sudo git config core.fileMode false
+
+
 
 	  
