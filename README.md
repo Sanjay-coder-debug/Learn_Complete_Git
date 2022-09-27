@@ -306,5 +306,9 @@ Issue -3
 	
 Issue -4
 --------
+         - If Accidentaly we did git  checkout  
+	                      |-----------------for vs code do -- ctrl+Z to back the changes 
+	                      |-----------------for vs code -  check on local history 
+			      
 
 	  
