@@ -312,9 +312,8 @@ Issue -4
 			      
 Working on Fork Branch 
 ======================
-
-
- 1) Parent Repository   = https://gitlab.codilar.in/codilar-internal/resource-booking-and-hiring.git
+<details><summary><b>Info</b></summary>
+1) Parent Repository   = https://gitlab.codilar.in/codilar-internal/resource-booking-and-hiring.git
     |
     |
  2) (Fork the Parent Repository)
@@ -357,10 +356,8 @@ Working on Fork Branch
                                            |
                                            |------ Open the PR link and select your Target Branch (which parent branch you want to create PR request)
                                            
-  
-        
-		  
-		  
+	
+</details>                                           	  
 		  
 		  
 		  
