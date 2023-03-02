@@ -310,5 +310,58 @@ Issue -4
 	                      |-----------------for vs code do -- ctrl+Z to back the changes 
 	                      |-----------------for vs code -  check on local history 
 			      
+Working on Fork Branch 
+======================
 
+
+ 1) Parent Repository   = https://gitlab.codilar.in/codilar-internal/resource-booking-and-hiring.git
+    |
+    |
+ 2) (Fork the Parent Repository)
+                      |----------if fork have some issues(not showing target(parent repo) branch when raising PR) also you are not able create 2nd time new fork from parent branch(some error)
+                                           |
+                                           |
+                                         In Gitlab there is a section called Groups (you will show in nav bar)
+                                              |
+                                              |
+                                           Create new Group (Group Name -eg "Sanjay Kumar")
+                                           
+                                            
+ 3)Now go to Parent Branch and Click on fork 
+                                          |
+                                          |                                        
+                                         It will show you the Group name that you created (Select that group)
+                                       
+                                        
+ 4) now you have new fork from parent branch with new Group name
+ 
+ 
+ 5) if you want latest code from parent branch 
+                                           |-------git remote -v
+                                           |-------git remote add upstream ("https://gitlab.codilar.in/codilar-internal/resource-booking-and-hiring.git")
+                                           |-------git remote -v
+                                           |-------git fetch upstream
+                                           |-------git checkout -b develop (create new branch for fork repo)  
+                                           |-------git pull upstream develop(or) (git pull upstream master)(from which parent branch you want latest code)
+                                           
+ 6) Add you code and Push to Parent repo from you Fork repo
+                                           |
+                                           |------git checkout -b edit_history(branch name for new my code changes)
+                                           |
+                                           |----- develop your functionality
+                                           |
+                                           |------git status
+                                           |------git add "files"
+                                           |------git commit -m "comments"
+                                           |------git push origin edit_history
+                                           |
+                                           |------ Open the PR link and select your Target Branch (which parent branch you want to create PR request)
+                                           
+  
+        
+		  
+		  
+		  
+		  
+		  
 	  
