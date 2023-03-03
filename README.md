@@ -6,6 +6,7 @@ All Git Command and use
 
 # Git-Command
 all git command
+- git config core.fileMode false
 
 
 ## Git Commands
