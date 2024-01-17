@@ -363,5 +363,88 @@ Working on Fork Branch
 </details>                                           	  
 		  
 		  
-		  
-	  
+Some Git Advance Concept
+========================
+<details><summary><b>Info</b></summary>
+
+                 - git stash
+		 - git stash pop
+                 - git revert 
+		 - git cherry-pick commit-id
+					   
+	
+</details>   		  
+	
+
+Git Deployment From Various Branch to Production & Cherry-pick
+==============================================================
+<details><summary><b>Info</b></summary>
+
+		- Production Branch - production-5.0
+
+                - Staging Branch  - staging-6.0
+
+
+
+
+               - Developer -1
+	                   - task/branch-1
+		           - task/branch-2
+	                   - task/branch-3
+
+                       - Here Developer create branch from production-5.0 and created PR to production-5.0 so if need to merge the same code to staging-6.0
+		         then you need to be on staging-6.0 branch and do git cherry-pick the PR by commit id
+
+
+                       production-5.0
+		            |
+	                    |---------------- task/branch-1  (created branch from production-5.0)  
+		            |
+	                    |---------------- created the PR to  --- production-5.0     - let's say commit id = fsd3sfs23423
+		            |
+	                    |---------------- if you want this PR code need to be merge into staging then follow below steps
+
+        checkout to - staging-6.0
+	                   |
+		           |-------- git pull origin staging-6.0
+	                   |
+		           |-------- git cherry-pick fsd3sfs23423 (commit id of the PR which is raised to staging-6.0)
+	                   |
+		           |
+	                   |------- check if any conflict found then resolve it 
+                           |
+			   |------- git status
+                           |
+			   |------- git add respected files
+                           |
+			   |------- git commit -m "comment "
+                           |
+			   |------- git push origin staging-6.0
+                           |
+			   |------- now code is already pushed to staging-6.0 branch run the deployment command 
+                           |
+			   |------- one thing you can notice here - that PR you created for production-5.0 will be still on open status because once it is merged to production-5.0 then status will change to merged
+                            
+                      
+  
+
+               - Developer -2
+	                   - task/branch-1
+		           - task/branch-2
+	                   - task/branch-3
+
+ 
+</details>  
+
+
+
+
+
+
+
+
+
+
+
+
+
