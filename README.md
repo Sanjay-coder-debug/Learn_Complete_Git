@@ -439,6 +439,52 @@ Git Deployment From Various Branch to Production & Cherry-pick
 
 
 
+### Resolve the - Merge Block in Git
+<details><summary><b>Info</b></summary>
+	
+	
+	   let's see i created branch  from production
+    
+	        my branch i.e- test-task
+	     	     
+	 let's see -----> i create the PR from test-task to production
+	 
+	            - now this PR is not merged from long time now we are getting the - Merge Block           
+	   
+	  So to resolve this issue(merge block issue)  need to follow below steps
+	  
+	      - sudo git checkout production
+	      
+	      - sudo git pull origin production
+	      
+	      - sudo git checkout test-task
+	      
+	      
+	      - sudo git pull  --rebase origin production-5.0-with-mobile-api
+	      
+	      
+	      - here we will able to see the conflicts so need to resolve the conflicts
+	      
+	      
+	      - if some issue then abort the rebase ----> git rebase --abort
+	      
+	      
+	      - now add the changes files 
+	       
+	        codilar@codilar-Latitude-E5470:/var/www/html/marina$ sudo git add app/code/Codilar/CustomApi/Model/Helper/Data.php
+	        codilar@codilar-Latitude-E5470:/var/www/html/marina$ sudo git add app/code/Codilar/CustomApi/etc/extension_attributes.xml
+	        
+	      - run the rebase continue    -- sudo git rebase --continue
+	        
+	        codilar@codilar-Latitude-E5470:/var/www/html/marina$ sudo git rebase --continue
+	
+	      - push the code 
+	      
+	      - sudo git push sanjay(origin) test-task / sudo git push sanjay(origin) test-task -f
+
+</details>
+
+
 
 
 
