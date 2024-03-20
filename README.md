@@ -484,7 +484,24 @@ Git Deployment From Various Branch to Production & Cherry-pick
 
 </details>
 
+### Git Cherry Pick Concept
+<details><summary><b>Info</b></summary>
+	
+     git checkout -b app-MHIOS-1128-prod
+     git cherry-pick 6342db4d30216612baeb6926a4ab40cbe41de575
 
+   - if any conflict -- resolve the conflict 
+  
+   - add that conflict resolve file -- git add app/code/Codilar/CustomApi/etc/di.xml
+  
+   - git cherry-pick --continue
+  
+   - git cherry-pick 6342db4d30216612baeb6926a4ab40cbe41de575
+  
+  
+  - continue the same
+
+</details>
 
 
 
