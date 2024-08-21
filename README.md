@@ -6,7 +6,15 @@ All Git Command and use
 
 # Git-Command
 all git command
-- git config core.fileMode false
+
+#### After Project Setup Getting the Git Issues (Modified Files)
+
+                 - git config core.fileMode false
+	
+          it remove from git status & when create the PR it will not affect (as per your file use - git update-index --assume-unchanged )
+          -----------------------------------------------------------------
+                  - git update-index --assume-unchanged app/etc/config.php    
+                  - git update-index --no-assume-unchanged app/etc/config.php
 
 
 ## Git Commands
